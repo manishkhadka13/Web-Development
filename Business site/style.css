@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins', sans-serif;
+ }
+ :root{
+    /* ===== Colors ===== */
+    --body-color: #E4E9F7;
+    --navbar-color: #FFF;
+    --primary-color: #695CFE;
+    --primary-color-light: #F6F5FF;
+    --toggle-color: #DDD;
+    --text-color: #707070;
+
+    /* --tran-03: all 0.2s ease; */
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.3s ease;
+    --tran-05: all 0.3s ease;
+} 
+.nav{
+    /*border: 2px solid red;*/
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: space-around;
+
+}
+.nav .logo{
+    /*border: 2px solid green;*/
+    margin-top: 7px;
+
+}
+
+.nav .links{
+    /*border: 2px solid yellow;*/
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.nav .Cart{
+    /*border: 2px solid blue;*/
+    margin-top: 7px;
+
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: large;
+}
+.main{
+    border: 2px solid rebeccapurple;
+    height: 600px;
+    background: rgb(249,206,226);
+    background: linear-gradient(135deg, rgba(249,206,226,1) 12%, rgba(230,201,221,1) 29%, rgba(186,188,203,1) 50%, rgba(171,185,198,1) 57%, rgba(166,184,196,0.9788359788359788) 62%, rgba(166,184,196,1) 69%, rgba(166,184,196,1) 81%, rgba(174,185,192,1) 87%, rgba(175,185,191,1) 93%, rgba(174,185,192,1) 100%, rgba(187,187,187,0.7870857815782564) 100%);
+}
+.info{
+    border: 2px solid green;
+    width: 60%;
+    height: 100%;
+   
+}
+.name{
+    border: 2px solid yellow;
+    font-size: xx-large;
+    text-align: center;
+    font-style: italic;
+    color: #77544e;
+    margin-top: 10%;
+}
+.slogan{
+    border: 2px solid purple;
+    font-size: x-large;
+    margin: 10% 0 0 0;
+    text-align: center;
+}
+.button{
+    border: 2px solid orange;
+    font-size: x-large;
+    margin: 10% 0 0 0;
+    text-align: center;
+}
+.media{
+    border: 2px solid blue;
+    margin: 5% 0 0 0;
+}
