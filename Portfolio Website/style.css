@@ -104,3 +104,41 @@ h5{
     top: 6px;
     right: 6px;
 }
+.about{
+    height: 100vh;
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+    background-size: cover;
+    background-position: center;
+}
+.about img{
+    height: auto;
+    width: 500px;
+}
+.about-text{
+    width: 500px;
+}
+.main{
+    width: 1200px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-text p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.about-text h2{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+}
+.about-text h5{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
