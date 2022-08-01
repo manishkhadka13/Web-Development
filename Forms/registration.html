@@ -1,0 +1,63 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="center">
+    <div class="Content">
+        <h1>User Registration Form</Form></h1>
+        <form method="post" action="" name="registration" class="registration-form" onsubmit="return formValidation()">
+            <table>
+                <tr>
+                    <td><label for="name">Name </label></td>
+                    <td><input type="text" name="name" id="name">
+                    <label id="mula"></label></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email </label></td>
+                    <td><input type="text" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender </label></td>
+                    <td><input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female</td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Phone </label></td>
+                    <td><input type="number" name="phone" id="phone"></td>
+                </tr>
+                <tr>
+                    <td><label for="country">Country</label></td>
+                    <td>
+                        <select name="country" id="country">
+                            <option value="">select</option>
+                            <option value="Nepal">Nepal</option>
+                            <option value="India">India</option>
+                            <option value="Bhutan">Bhutan</option>
+                            <option value="Pakistan">Pakistan</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="descrip">Description </label></td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="2"><textarea name="descrip" id="descrip" cols="50" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" class="submit" value="Registration"></td>
+                </tr>
+
+            </table>
+        </form>
+    </div>
+  </div> 
+  <script src="validate.js"></script>  
+</body>
+</html>
