@@ -18,7 +18,6 @@ function countdown()
     hoursel.innerHTML=hours
     minsel.innerHTML=mins;
     secel.innerHTML=seconds;
-    console.log(days);   
 }   
 countdown();
 setInterval(countdown,1000);
