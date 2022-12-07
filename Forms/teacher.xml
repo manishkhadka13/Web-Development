@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teacher SYSTEM "teacher.dtd">
+<?xml-stylesheet type="text/xsl" href="teacher.xsl"?>
+    <teacher>
+       <name>
+        <firstname>Ram</firstname>
+        <lastname>Karki</lastname>
+        </name>
+        <email>karkiram@gmail.com</email>
+        <phone>9814067002</phone>
+        <address>Kathmandu</address>
+     </teacher>
+

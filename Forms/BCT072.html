@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>User Registration Form</h1>
+    <form name="userform"  onsubmit="validate()">
+        <table>
+            <tr>
+               <td><label>Name</label></td>
+               <td><input type="text" name="name" id="name"></td>
+            </tr>
+            <tr>
+                <td><label>Email</label></td>
+                <td><input type="text" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label>Gender</label></td>
+                <td><input type="radio" name="gender" class="gender" value="male">Male
+                <input type="radio" name="gender" class="gender" value="female">Female</td>
+            </tr> 
+            <tr>
+                <td> <label>Phone</label></td>
+                <td><input type="number" name="phone" id="phone"></td>
+            </tr>
+            <tr>
+                <td><label>Interest</label></td> 
+                <td><textarea name="interest" id="interest" cols="50" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" class="submit" value="Register">
+                <input type="reset" class="submit" value="Reset"></td>
+
+            </tr>
+
+        </table>
+    </form>
+    <script src="formvalidate.js"></script>
+</body>
+</html>
